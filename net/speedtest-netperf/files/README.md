@@ -28,8 +28,11 @@ After running `speedtest-netperf.sh`, if latency is seen to increase much during
 
 ## Installation
 
-This package and its dependencies should be installed from the official OpenWrt software repository with the command:
-`opkg install speedtest-netperf`
+This package and its dependencies should be installed from the official OpenWrt software repository with the commands:
+```
+opkg update
+opkg install speedtest-netperf
+```
 
 If unavailable, search for and try to directly download the same package for a newer OpenWrt release, since it is architecture-independent and very portable.
 
